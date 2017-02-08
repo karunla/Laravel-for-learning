@@ -11,11 +11,11 @@ class ProfileController extends Controller
 
     return view ('profile');
   }
-    //function getYear ()
-    //{
-      //$bYear = 2017;
-      //return $bYear +543;
-    //}
+    function getYear ()
+    {
+      $bYear = 2017;
+      return $bYear +543;
+    }
 
   public function getName ()
     {
